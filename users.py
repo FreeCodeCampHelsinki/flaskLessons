@@ -15,3 +15,8 @@ def userHome():
                             title='Users section',
                             greeting='Hello {}'.format(request.form['username']), 
                             message='How are you, {}'.format(request.form['username']))
+
+# @users.route("/users/dosql")
+# def doSQL():
+#     db.create_all()
+#     return "Done"
